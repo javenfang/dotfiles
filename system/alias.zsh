@@ -5,6 +5,7 @@ alias utf82gbk="iconv -f UTF-8 -t GBK"
 alias tailf="tail -f"
 alias ve="pyenv local"
 alias la="ls -lAh"
+alias gw="git whatchanged"
 if [[ "$OS" == "osx" ]]; then
     alias rm="trash"
 fi
